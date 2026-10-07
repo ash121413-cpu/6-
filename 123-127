@@ -1,0 +1,30 @@
+<style>
+body {
+	background-image: url('BackgroundFront.png'), url('BackgroundBack.png’);
+	background-size: 100% 250px;
+     }
+</style>
+<style>
+body {
+ background-image: url('BackgroundFront.png'), url('BackgroundBack.png');
+ /* 첫 번째 이미지의 너비: 100%
+    두 번째 이미지의 너비: 250px */
+ background-size: 100%, 250px;
+}
+</style>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Background Property</title>
+    <style>
+ #box {
+	 background-image: url('BackgroundFront.png'), url('BackgroundBack.png’);
+	 background-size: 100%;
+ 	 background-repeat: no-repeat;
+}
+    </style>
+</head>
+<body>
+
+</body>
+</html>
